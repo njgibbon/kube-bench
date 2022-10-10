@@ -28,7 +28,7 @@ jobs:
         with:
           go-version: 1.16
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
       - name: yaml-lint
         uses: ibiqlik/action-yamllint@v3
       - name: Run unit tests
